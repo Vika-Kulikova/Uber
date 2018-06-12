@@ -1,0 +1,125 @@
+@media screen and (max-width: 992px) {
+	.header, .box-content {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.white-background:before {
+		margin-right: 20rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.white-background:before {
+		margin-right: 0;
+		transform: translateX(0);
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+	}
+	.title h1 {
+		font-size: 35px;
+	}
+	.block-baner a {
+		top: -4%;
+		left: 1rem;
+	}
+	.box-image img {
+		width: 120%;
+	}
+	.footer:before {
+		right: 0;
+	}
+	.footer-link-block, .footer-nav-item a {
+			 color: #fff;
+		 }
+	.footer-link-block, .footer-nav-item a:hover {
+		color: #d1d1d1;
+	}
+	.footer-link-icon:nth-child(n+2) path {
+		fill: #fff;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.content-wrap:nth-child(2n+1) {
+		margin-right: 1.5rem;
+	}
+	.content-wrap {
+		width: 100%;
+		margin: 0 1.5rem;		
+		margin-bottom: 4rem;
+	}
+	.footer{
+		flex-direction: column;
+	}
+	.footer-flex {
+		flex-basis: 100%;
+	}
+	.footer-icon {
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+	}
+	.footer-form-box {
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		text-align: center;
+	}
+	.footer-link {
+		top: 20%;
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		width: auto;
+	}
+	.footer-link-icon a {
+		display: block;
+		width: 2rem;
+	}
+	.footer-nav {
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+	}
+	.footer-copyright {
+		left: 50%;
+		transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		bottom: -90%;
+	}
+}
+
+	@media screen and (max-width: 550px) {
+		.block-baner a {
+			top: -7%;
+			left: 1rem;
+		}
+		.title h1 {
+			top: -7%;
+			left: 1rem;
+		}
+	}
+
+@media screen and (max-width: 500px) {
+	.header {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.nav-menu {
+		justify-content: flex-start;
+		margin-top: 30px;
+		margin-left: -1rem;
+	}
+}
+	@media screen and (max-width: 375px) {
+		.footer-link-icon a {
+		width: 1.5rem;
+	}
+	}
+
+
